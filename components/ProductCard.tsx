@@ -14,7 +14,7 @@ const ProductCard: React.FC<Props> = ({ product }) => {
       <Text color="light" size={20} weight="bold">
         {product.title}
       </Text>
-      <Text size={14}>{product.description}</Text>
+      <Text size={14}>INFO: {product.description}</Text>
       <Text color="text-500" size={14}></Text>
     </Stack>
   );
